@@ -1,0 +1,152 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Kite One', sans-serif;
+}
+
+h1 {
+  font-family: 'Merienda', cursive;
+  margin: 0;
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-family: 'Kurale', serif;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Kite One', sans-serif;
+  font-size: 1.25rem;
+}
+
+hr {
+  border-style: dotted;
+  width: 5%;
+  border-width: 0.4rem 0 0;
+  color: #364f6b;
+  margin: 3rem auto;
+}
+
+a {
+  text-decoration: none;
+  color: #00BFFF;
+}
+
+small {
+  font-size: .7rem;
+  display: block;
+}
+
+.flex {
+  background-color: #364f6b;
+  width: 100%;
+  height: 7.5rem;
+  position: fixed;
+  top: 0;
+  z-index: 1040;
+  display: flex;
+}
+
+.logo {
+  width: 30%;
+  height: 100%;
+}
+
+.logo a img {
+  width: 5.2rem;
+  height: 100%;
+}
+
+.main-nav {
+  width: 70%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-nav ul {
+  list-style-type: none;
+  float: right;
+  padding: 2% 20%;
+}
+
+.main-nav ul li {
+  display: inline-flex;
+}
+
+.main-nav ul li a {
+  padding: 0.3rem 1rem;
+  text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+  color: #222831;
+  background-color: #f8b400;
+  border: 1px solid;
+}
+
+.blog-profile {
+  padding-top: 10rem;
+  margin: 0 auto;
+  width: 50%;
+}
+.tr-description {
+  width: 80%;
+  margin: auto;
+  line-height: 2.5;
+}
+.blog-main-description {
+  background-color: #f9f7f7;
+  padding: 1.5rem;
+}
+.blog-main-contents {
+  padding-top: 1.5rem ;
+  color: #eb5e0b;
+}
+.description {
+ width: 70%;
+ margin: 0 auto;
+ line-height: 3;
+}
+
+.tr-description a {
+  font-size: 1.3rem;
+}
+.tr-description a:hover {
+ color: #eb5e0b;
+}
+.contact-me {
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+.btn {
+  border: 2px solid;
+  padding: 0.5rem 2.5rem;
+}
+.tr-contact {
+  padding: 1rem 3rem;
+}
+.footer {
+  color: #fff;
+  background-color: #27496d;
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  overflow: hidden;
+  padding: 2rem 0;;
+}
+.footer-nav {
+  width: 60%;
+  height: 100%;
+}
+.copyright {
+  width: 40%;
+  height: 100%;
+}
+.footer-nav a {
+  color: #fff;
+  display: table;
+  margin: auto;
+}
