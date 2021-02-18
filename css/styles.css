@@ -150,3 +150,16 @@ small {
   display: table;
   margin: auto;
 }
+
+.portfolio {
+  padding-top: 10rem;
+  width: 80%;
+  margin: auto;
+}
+
+.portfolio img {
+   width: 30%;
+   margin: 2%;
+   padding: .8rem;
+   border: .01rem solid;
+}
