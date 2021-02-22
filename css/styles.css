@@ -152,13 +152,13 @@ small {
 }
 
 .portfolio {
-  padding-top: 10rem;
-  width: 80%;
+  width: 90%;
   margin: auto;
+  background-color: #f9f7f7;
 }
 
 .portfolio img {
-   width: 30%;
+   width: 20%;
    margin: 2%;
    padding: .8rem;
    border: .01rem solid;
